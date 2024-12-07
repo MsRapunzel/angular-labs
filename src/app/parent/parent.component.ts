@@ -5,7 +5,7 @@ import { ChildComponent } from '../child/child.component';
   selector: 'app-parent',
   imports: [ChildComponent],
   templateUrl: './parent.component.html',
-  styleUrl: './parent.component.css'
+  styleUrl: './parent.component.css',
 })
 export class ParentComponent {
   messageToChild: string = "Hello from parent component!";

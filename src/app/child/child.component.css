@@ -1,0 +1,14 @@
+:host {
+    display: block;
+    margin: 10px;
+    padding: 15px;
+    border: 2px solid var(--hot-red);
+    border-radius: 8px;
+    background-color: var(--gray-900);
+}
+h3 {
+    color: #28A745;
+}
+p {
+    color: rgb(209, 232, 219);
+}

@@ -1,0 +1,11 @@
+:host {
+    display: block;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid var(--electric-violet);
+    border-radius: 8px;
+    background-color: #f8f9fa;
+}
+h2 {
+    color: #007BFF;
+}
