@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="2512672022302254940" datatype="html">
+        <source>About component works!</source>
+        <target>Le composant "Qui nous sommes" fonctionne!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about/about.component.html</context>
+          <context context-type="linenumber">1,2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="welcomeTitle" datatype="html">
+        <source>Welcome to <x id="INTERPOLATION" equiv-text="{{ title }}"/>!</source>
+        <target>Bienvenue &#224; <x id="INTERPOLATION" equiv-text="{{ title }}"/>!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">60,61</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="welcomeParagraph" datatype="html">
+        <source>This is the starter webpage edited by 408 cohort student Anastasiia Zolotova. 🎉</source>
+        <target>Ceci est la page web de démarrage éditée par 408 cohorte étudiante Anastasiia Zolotova. 🎉</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">61,62</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7541173871928613816" datatype="html">
+        <source>Child component</source>
+        <target>Le composant enfant</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/child/child.component.html</context>
+          <context context-type="linenumber">2,3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6683877813014964578" datatype="html">
+        <source>Received data: <x id="INTERPOLATION" equiv-text="{{ data }}"/></source>
+        <target>Données reçues: <x id="INTERPOLATION" equiv-text="{{ data }}"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/child/child.component.html</context>
+          <context context-type="linenumber">3,4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1892320123713294446" datatype="html">
+        <source>Description component works!</source>
+        <target>Le composant "Description" fonctionne!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/description/description.component.html</context>
+          <context context-type="linenumber">1,2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5829958333119507851" datatype="html">
+        <source>First component</source>
+        <target>Le premier composant</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/first/first.component.html</context>
+          <context context-type="linenumber">2,3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7389892018933468466" datatype="html">
+        <source>Change state</source>
+        <target>Changer d'état</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/first/first.component.html</context>
+          <context context-type="linenumber">3,4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2097035758519498165" datatype="html">
+        <source>Parent component</source>
+        <target>Le composant parent</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/parent/parent.component.html</context>
+          <context context-type="linenumber">2,3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2656204158266922716" datatype="html">
+        <source>Sending data to child component:</source>
+        <target>Envoyer des données aux composant enfant:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/parent/parent.component.html</context>
+          <context context-type="linenumber">3,4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1352098031274314242" datatype="html">
+        <source>Hello from parent component!</source>
+        <target>Bonjour de composant parent!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/parent/parent.component.ts</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2854051268782941206" datatype="html">
+        <source>Reactive Form with Nested FormGroups</source>
+        <target>Reactive Form avec imbriqué Form Groups</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/second/second.component.html</context>
+          <context context-type="linenumber">3,5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5999758615235173057" datatype="html">
+        <source>Personal Info</source>
+        <target>Informations personnelles</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/second/second.component.html</context>
+          <context context-type="linenumber">7,8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="529882100731018983" datatype="html">
+        <source>First Name:</source>
+        <target>Prénom</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/second/second.component.html</context>
+          <context context-type="linenumber">8,9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9198950544795967090" datatype="html">
+        <source>First name is required.</source>
+        <target>Le prénom est requis.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/second/second.component.html</context>
+          <context context-type="linenumber">11,12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8906468549092977314" datatype="html">
+        <source>First name must be at least 2 characters.</source>
+        <target>Le prénom doit avoir 2 caractères au minimum.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/second/second.component.html</context>
+          <context context-type="linenumber">12,13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6335971540734973333" datatype="html">
+        <source>Last Name:</source>
+        <target>Nom de famille:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/second/second.component.html</context>
+          <context context-type="linenumber">16,17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2228748762955437551" datatype="html">
+        <source>Last name is required.</source>
+        <target>Nom de famille est requis.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/second/second.component.html</context>
+          <context context-type="linenumber">19,20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6910066892888746127" datatype="html">
+        <source>Last name must be at least 2 characters.</source>
+        <target>Nom de famille doit avoir 2 caractères au minimum.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/second/second.component.html</context>
+          <context context-type="linenumber">20,21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6304432362546770951" datatype="html">
+        <source>Address</source>
+        <target>Adresse</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/second/second.component.html</context>
+          <context context-type="linenumber">27,28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8499614752066309224" datatype="html">
+        <source>City:</source>
+        <target>Ville:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/second/second.component.html</context>
+          <context context-type="linenumber">28,29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1359412855075438461" datatype="html">
+        <source>City is required.</source>
+        <target>Ville est requis.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/second/second.component.html</context>
+          <context context-type="linenumber">31,32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4220770149675418165" datatype="html">
+        <source>Postal Code:</source>
+        <target>Code Postal:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/second/second.component.html</context>
+          <context context-type="linenumber">34,35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1839444747113173240" datatype="html">
+        <source>Postal code is required.</source>
+        <target>Postal Code est requis.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/second/second.component.html</context>
+          <context context-type="linenumber">37,38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7660860508817618156" datatype="html">
+        <source>Postal code must be 5 digits.</source>
+        <target>Code postal doit être composé de 5 chiffres.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/second/second.component.html</context>
+          <context context-type="linenumber">38,39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7922989125096435449" datatype="html">
+        <source>Contact</source>
+        <target>Contact</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/second/second.component.html</context>
+          <context context-type="linenumber">44,45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6631334172623029500" datatype="html">
+        <source>Email:</source>
+        <target>Email:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/second/second.component.html</context>
+          <context context-type="linenumber">45,46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8602814243662345124" datatype="html">
+        <source>Email is required.</source>
+        <target>Email est requis.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/second/second.component.html</context>
+          <context context-type="linenumber">48,49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3174495843910953299" datatype="html">
+        <source>Invalid email format.</source>
+        <target>Format d'adresse électronique incorrect.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/second/second.component.html</context>
+          <context context-type="linenumber">49,50</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4378227938065070603" datatype="html">
+        <source>Phone:</source>
+        <target>Numéro:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/second/second.component.html</context>
+          <context context-type="linenumber">52,53</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5686828123659303197" datatype="html">
+        <source>Phone number is required.</source>
+        <target>Numéro est requis.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/second/second.component.html</context>
+          <context context-type="linenumber">55,56</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7992760528835228317" datatype="html">
+        <source>Update Form</source>
+        <target>Mise à jour</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/second/second.component.html</context>
+          <context context-type="linenumber">61,62</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9108180304755790254" datatype="html">
+        <source>Reset Form</source>
+        <target>Réinitialiser</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/second/second.component.html</context>
+          <context context-type="linenumber">62,64</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7318063173393884152" datatype="html">
+        <source>Form Values</source>
+        <target>Valeurs de formulaire</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/second/second.component.html</context>
+          <context context-type="linenumber">66,67</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4010422913011174721" datatype="html">
+        <source>third works!</source>
+        <target>Le troisième composant fonctionne!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/third/third.component.html</context>
+          <context context-type="linenumber">1,2</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,69 +1,69 @@
 <div class="form-container">
     <form [formGroup]="form">
-        <h2>Reactive Form with Nested FormGroups</h2>
+        <h2 i18n>Reactive Form with Nested FormGroups</h2>
 
         <!-- Personal Info -->
         <div formGroupName="personalInfo">
-            <h3>Personal Info</h3>
-            <label for="firstName">First Name:</label>
+            <h3 i18n>Personal Info</h3>
+            <label for="firstName" i18n>First Name:</label>
             <input id="firstName" formControlName="firstName">
             <div *ngIf="form.get('personalInfo.firstName')?.invalid && form.get('personalInfo.firstName')?.touched">
-                <small *ngIf="form.get('personalInfo.firstName')?.errors?.['required']">First name is required.</small>
-                <small *ngIf="form.get('personalInfo.firstName')?.errors?.['minlength']">First name must be at least 2
+                <small *ngIf="form.get('personalInfo.firstName')?.errors?.['required']" i18n>First name is required.</small>
+                <small *ngIf="form.get('personalInfo.firstName')?.errors?.['minlength']" i18n>First name must be at least 2
                     characters.</small>
             </div>
 
-            <label for="lastName">Last Name:</label>
+            <label for="lastName" i18n>Last Name:</label>
             <input id="lastName" formControlName="lastName">
             <div *ngIf="form.get('personalInfo.lastName')?.invalid && form.get('personalInfo.lastName')?.touched">
-                <small *ngIf="form.get('personalInfo.lastName')?.errors?.['required']">Last name is required.</small>
-                <small *ngIf="form.get('personalInfo.lastName')?.errors?.['minlength']">Last name must be at least 2
+                <small *ngIf="form.get('personalInfo.lastName')?.errors?.['required']" i18n>Last name is required.</small>
+                <small *ngIf="form.get('personalInfo.lastName')?.errors?.['minlength']" i18n>Last name must be at least 2
                     characters.</small>
             </div>
         </div>
 
         <!-- Address -->
         <div formGroupName="address">
-            <h3>Address</h3>
-            <label for="city">City:</label>
+            <h3 i18n>Address</h3>
+            <label for="city" i18n>City:</label>
             <input id="city" formControlName="city">
             <div *ngIf="form.get('address.city')?.invalid && form.get('address.city')?.touched">
-                <small>City is required.</small>
+                <small i18n>City is required.</small>
             </div>
 
-            <label for="postalCode">Postal Code:</label>
+            <label for="postalCode" i18n>Postal Code:</label>
             <input id="postalCode" formControlName="postalCode">
             <div *ngIf="form.get('address.postalCode')?.invalid && form.get('address.postalCode')?.touched">
-                <small *ngIf="form.get('address.postalCode')?.errors?.['required']">Postal code is required.</small>
-                <small *ngIf="form.get('address.postalCode')?.errors?.['pattern']">Postal code must be 5 digits.</small>
+                <small *ngIf="form.get('address.postalCode')?.errors?.['required']" i18n>Postal code is required.</small>
+                <small *ngIf="form.get('address.postalCode')?.errors?.['pattern']" i18n>Postal code must be 5 digits.</small>
             </div>
         </div>
 
         <!-- Contact -->
         <div formGroupName="contact">
-            <h3>Contact</h3>
-            <label for="email">Email:</label>
+            <h3 i18n>Contact</h3>
+            <label for="email" i18n>Email:</label>
             <input id="email" formControlName="email">
             <div *ngIf="form.get('contact.email')?.invalid && form.get('contact.email')?.touched">
-                <small *ngIf="form.get('contact.email')?.errors?.['required']">Email is required.</small>
-                <small *ngIf="form.get('contact.email')?.errors?.['email']">Invalid email format.</small>
+                <small *ngIf="form.get('contact.email')?.errors?.['required']" i18n>Email is required.</small>
+                <small *ngIf="form.get('contact.email')?.errors?.['email']" i18n>Invalid email format.</small>
             </div>
 
-            <label for="phone">Phone:</label>
+            <label for="phone" i18n>Phone:</label>
             <input id="phone" formControlName="phone">
             <div *ngIf="form.get('contact.phone')?.invalid && form.get('contact.phone')?.touched">
-                <small *ngIf="form.get('contact.phone')?.errors?.['required']">Phone number is required.</small>
+                <small *ngIf="form.get('contact.phone')?.errors?.['required']" i18n>Phone number is required.</small>
             </div>
         </div>
     </form>
 
     <!-- Update form button -->
-    <button (click)="updateForm(form.value)">Update Form</button>
-    <button (click)="resetForm()">Reset Form</button>
+    <button (click)="updateForm(form.value)" i18n>Update Form</button>
+    <button (click)="resetForm()" i18n>Reset Form</button>
 
     <!-- Display form values -->
     <div class="form-values">
-        <h3>Form Values</h3>
+        <h3 i18n>Form Values</h3>
         <pre>{{ form.value | json }}</pre>
     </div>
 </div>

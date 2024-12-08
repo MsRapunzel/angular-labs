@@ -8,5 +8,5 @@ import { ChildComponent } from '../child/child.component';
   styleUrl: './parent.component.css',
 })
 export class ParentComponent {
-  messageToChild: string = "Hello from parent component!";
+  messageToChild: string = $localize`Hello from parent component!`;
 }
