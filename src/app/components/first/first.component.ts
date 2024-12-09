@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { reusableAnimation } from '../animations';
+import { reusableAnimation } from '../../animations';
 
 @Component({
   selector: 'app-first',

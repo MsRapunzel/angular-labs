@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { ChildComponent } from '../child/child.component';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-parent',
@@ -9,4 +10,10 @@ import { ChildComponent } from '../child/child.component';
 })
 export class ParentComponent {
   messageToChild: string = $localize`Hello from parent component!`;
+
+  constructor(private router: Router) {}
+
+  navigateToPageThree(id: number) {
+    this.router.navigate(['/three', id]);
+  }
 }
