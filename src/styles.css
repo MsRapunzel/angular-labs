@@ -40,10 +40,6 @@ button {
   cursor: pointer;
 }
 
-button:hover {
-  background-color: #0056b3;
-}
-
 h1 {
   font-size: 3.125rem;
   color: var(--french-violet);
@@ -177,3 +173,5 @@ main {
     margin-block: 1.5rem;
   }
 }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
